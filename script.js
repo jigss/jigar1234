@@ -1,5 +1,6 @@
 var app = angular.module("computer",['ngRoute'])
 
+console.log("Input");
 .config(['$routeProvider', function($routeProvider){
   $routeProvider.
     when('/main',{
